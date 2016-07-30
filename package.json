@@ -1,0 +1,16 @@
+{
+  "name": "babel-bug",
+  "version": "1.0.0",
+  "author": "Luke Page",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "babel test.js -d test-out"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
