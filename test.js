@@ -1,17 +1,15 @@
-const a = {
-    b: function() {
+    const b = function() {
         switch (c) {
             case 1: {
-                if (this.d.length > 1 || this.e({})) {
+		// can leave out if()
+                if (false) {
                     return;
                 }
 
-                const f = d('g', function() {
+                const f = function() {
                         f();
-                }.bind(this));
-
+                };
                 break;
             }
         }
-    },
-};
+    };
